@@ -33,7 +33,10 @@ label {
 #show-contact {
   display: none;
 }
-
+.show {
+  float:left; 
+  padding-left: 150px;
+}
 .contact {
   cursor: pointer;
   color: #0088cc;

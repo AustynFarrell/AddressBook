@@ -34,21 +34,19 @@
 
 <div id="showContacts">
           <h2>Contacts:</h2>
-          <ul id="contacts">
+          <ul id="contacts"></ul>
 </div>
 
-<script>
+<div id="show-contact" class="show">
 
-    $(document).ready(function() {
-    $("form#some-form").submit(function(event) {
-      var someInput = $("input#some-input").val();
-      var result = functionName(argument);
-      $('.output').text(result)
+  <h2></h2>
 
-      event.preventDefault();
-    });
-  });
+  <p>First name: <span class="first-name"></span></p>
+  <p>Last name: <span class="last-name"></span></p>
+  <p>Address: <span class="address"></span></p>
+</div>
 
-</script>
+
+
 </body>
 </html>
