@@ -1,0 +1,44 @@
+h1 { background-color: #596380;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+form {
+	padding: 0 25% 0 25%;
+}
+label {
+	padding-top: 5px;
+	font-size: 18px;
+}
+.font {
+	color:#FFF;
+	font-family: 'Lato:7S00', sans-serif;
+}
+.btn{
+	color: #000;
+}
+.bg {
+	color:#596380;
+	background-image: url("img/shattered.png") repeat left top;
+	text-align: center;
+	font-family: 'Lato', sans-serif;	
+}
+
+#addContacts {
+	float:left;
+	padding-right: 10%;
+}
+#showContacts {
+	float: left;
+}
+#show-contact {
+  display: none;
+}
+
+.contact {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
